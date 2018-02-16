@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mEditText = (EditText) findViewById(R.id.edit_text);
+        mEditText = findViewById(R.id.edit_text);
 
         String inputText = load();
 
@@ -100,5 +100,4 @@ public class MainActivity extends AppCompatActivity {
 
         return content.toString();
     }
-
 }
